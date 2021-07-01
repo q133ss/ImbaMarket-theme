@@ -1,0 +1,122 @@
+/*!
+Theme Name: Ibma Market
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: imba
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Ibma Market is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic
+	- Normalize
+	- Box sizing
+# Base
+	- Typography
+	- Elements
+	- Links
+	- Forms
+## Layouts
+# Components
+	- Navigation
+	- Posts and pages
+	- Comments
+	- Widgets
+	- Media
+	- Captions
+	- Galleries
+# plugins
+	- Jetpack infinite scroll
+# Utilities
+	- Accessibility
+	- Alignments
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Generic
+--------------------------------------------------------------*/
+
+/* Normalize
+--------------------------------------------- */
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+	 ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+
+.content__item_title a{
+	color: #000!important;
+	text-decoration: none;
+}
+
+.section__home_more a{
+	color: #000!important;
+	text-decoration: none;
+}
+
+.woocommerce-breadcrumb a{
+	color: #000!important;
+	text-decoration: none;
+}
+
+.slick-slide a{
+	text-decoration: none!important;
+}
+
+.content__item_categories-title{
+	font-weight: 600!important;
+}
+
+nav.bc__item a{
+	    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #6D6D6D!important;
+    text-decoration: none!important;
+    position: relative;
+}
+
+.header__links a{
+	    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 11px;
+    border: 1px solid transparent;
+    padding: 15px 23px;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.header__links a:hover{
+	background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #638BFF;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 10px;
+}

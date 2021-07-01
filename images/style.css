@@ -1,0 +1,6 @@
+/*
+Theme Name: storefront-child
+Template: storefront
+*/
+@import url("/storefront/style.css");
+@import url("/storefront/style-rtl.css");
